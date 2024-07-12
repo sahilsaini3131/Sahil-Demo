@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/setting">
+
+    <fragment
+        android:id="@+id/home2"
+        android:name="com.sahil.demo.views.home.Home"
+        android:label="Home2" />
+    <fragment
+        android:id="@+id/setting"
+        android:name="com.sahil.demo.views.setting.Setting"
+        android:label="Setting" />
+    <fragment
+        android:id="@+id/notification"
+        android:name="com.sahil.demo.views.notification.Notification"
+        android:label="Notification" />
+    <fragment
+        android:id="@+id/profile"
+        android:name="com.sahil.demo.views.profile.Profile"
+        android:label="Profile" />
+    <fragment
+        android:id="@+id/whatsApp"
+        android:name="com.sahil.demo.views.tabLayout.WhatsApp"
+        android:label="WhatsApp" />
+    <fragment
+        android:id="@+id/chats"
+        android:name="com.sahil.demo.views.tabLayout.Chat.Chats"
+        android:label="Chats" />
+    <fragment
+        android:id="@+id/calls"
+        android:name="com.sahil.demo.views.tabLayout.Calls.Calls"
+        android:label="Calls" />
+    <fragment
+        android:id="@+id/group"
+        android:name="com.sahil.demo.views.tabLayout.Group.Group"
+        android:label="Group" />
+</navigation>
